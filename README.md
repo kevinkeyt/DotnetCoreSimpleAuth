@@ -12,4 +12,4 @@ dotnet user-secrets set AppSettings:FullName "Joe Tester"
 ```
 
 If you would like a full description of the code you can view a post on my blog that goes into more detail here. 
-(https://kevinkeyt.com/post/cookie-auth-with-dotnet-core)
+(https://kevinkeyt.azurewebsites.net/post/cookie-auth-with-dotnet-core)
