@@ -1,0 +1,6 @@
+﻿@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor;
+
+@if (HttpContextAccessor.HttpContext.User.Identity.IsAuthenticated)
+{
+    <div class="pull-right" style="color:#fff;">Hello, @HttpContextAccessor.HttpContext.User.Claims.SingleOrDefault(x => x.Type == "FullName").Value</div>
+}
